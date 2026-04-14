@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data (no subir datasets grandes)
+data/processed/*.csv
+data/raw/*.csv
+
+# Models (archivos binarios grandes)
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Reports generados
+reports/figures/*.png
+reports/figures/*.jpg
+reports/figures/*.svg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+*.log
+
+# Data - no subir datasets grandes
+data/processed/*.csv
+!data/processed/.gitkeep
+data/raw/*.csv
+!data/raw/.gitkeep
